@@ -1,0 +1,48 @@
+﻿2018-07-24T00:27:23.1576840+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-07-24T00:27:23.4887004+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-07-24T00:27:23.4917100+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Solutions\POC\ShoppingMe\ShoppingMe.BDD.Tests\bin\Release\ShoppingMe.BDD.Tests.dll
+2018-07-24T00:27:23.4957185+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-07-24T00:27:33.7154676+05:30;Thread#16;Info;Discovering target: Default
+2018-07-24T00:27:33.7224892+05:30;Thread#16;Info;Discovering tests from assembly: C:\Solutions\POC\ShoppingMe\ShoppingMe.BDD.Tests\bin\Release\ShoppingMe.BDD.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: ShoppingMe.BDD.Tests/Default - 
+#1: Default - 
+#2: ShoppingMe.BDD.Tests - 
+#3: Customers - 
+#9: [GET]: api/v1/validatecredentialbyemailandpassword?email=tryambak05@gmail.com&password=abc@123 - TestAssembly:ShoppingMe.BDD.Tests/Feature:Customers/Scenario:%5bGET%5d%3a+api%2fv1%2fvalidatecredentialbyemailandpassword%3femail%3dtryambak05%40gmail.com%26password%3dabc%40123
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for ShoppingMe.BDD.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\tligade\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given i have entered email tryambak05@gmail.com and password abc@123
+Thread#0:T:done: CustomersSteps.GivenIHaveEnteredEmailTryambakGmail_ComAndPasswordAbc("tryambak05@gmail.com", "abc@123") (0.0s)
+Thread#0:B:When I request validatecredentialbyemailandpassword endpoint
+Thread#0:T:done: CustomersSteps.WhenIRequestValidatecredentialbyemailandpasswordEndpoint() (0.4s)
+Thread#0:B:Then the result shows status code 200
+Thread#0:T:done: CustomersSteps.ThenTheResultShowsStatusCode(200) (0.2s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 1.075183 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

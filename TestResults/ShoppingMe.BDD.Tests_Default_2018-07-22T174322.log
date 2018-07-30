@@ -1,0 +1,54 @@
+﻿2018-07-22T17:43:22.4614470+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-07-22T17:43:22.6238960+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-07-22T17:43:22.6259017+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Solutions\POC\WebApp\ShoppingMe.BDD.Tests\bin\Release\ShoppingMe.BDD.Tests.dll
+2018-07-22T17:43:22.6289526+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-07-22T17:43:34.7827875+05:30;Thread#13;Info;Discovering target: Default
+2018-07-22T17:43:34.7847922+05:30;Thread#13;Info;Discovering tests from assembly: C:\Solutions\POC\WebApp\ShoppingMe.BDD.Tests\bin\Release\ShoppingMe.BDD.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: ShoppingMe.BDD.Tests/Default - 
+#1: Default - 
+#2: ShoppingMe.BDD.Tests - 
+#3: Customers - 
+#4: [GET] : api/v1/getcustomerbyid?customerId=1 - TestAssembly:ShoppingMe.BDD.Tests/Feature:Customers/Scenario:%5bGET%5d+%3a+api%2fv1%2fgetcustomerbyid%3fcustomerId%3d1
+#5: [POST] : api/v1/createcustomer - TestAssembly:ShoppingMe.BDD.Tests/Feature:Customers/Scenario:%5bPOST%5d+%3a+api%2fv1%2fcreatecustomer
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for ShoppingMe.BDD.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\tligade\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have entered customerId 1
+Thread#0:T:done: CustomersSteps.GivenIHaveEnteredCustomerId(1) (0.2s)
+Thread#0:B:When I request getcustomerbyId endpoint
+Thread#0:T:done: CustomersSteps.WhenIRequestGetcustomerbyIdEndpoint() (1.6s)
+Thread#0:B:Then the result should be customer details on the screen with 200 status code
+Thread#0:T:done: CustomersSteps.ThenTheResultShouldBeCustomerDetailsOnTheScreen(200) (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 2.4491006 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I have entered customer contract object
+Thread#0:T:binding error: Parameter count mismatch! The binding method 'ShoppingMe.BDD.Tests:ShoppingMe.BDD.Tests.Features.CustomersSteps.GivenIHaveEnteredCustomerContractObject(Table)' should have 0 parameters
+Thread#0:B:When I request createcustomer endpoint
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then the result should be true on the screen with 200 status code
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | CustomerId | FirstName | LastName | Email                 | Password  | Mobile     | CreatedDate             | ModifiedDate            |
+Thread#0:B:  | 1          | Pramod    | Swami    | pramod.wami@gmail.com | Pass$#123 | 9890765456 | 2018-07-22 17:38:55.273 | 2018-07-22 17:38:55.273 |
+Thread#0:T:binding error: Parameter count mismatch! The binding method 'ShoppingMe.BD

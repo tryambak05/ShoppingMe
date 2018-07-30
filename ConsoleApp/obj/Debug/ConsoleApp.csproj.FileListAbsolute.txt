@@ -1,0 +1,6 @@
+C:\Solutions\POC\WebApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Solutions\POC\WebApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Solutions\POC\WebApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Solutions\POC\WebApp\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Solutions\POC\WebApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Solutions\POC\WebApp\ConsoleApp\obj\Debug\ConsoleApp.pdb

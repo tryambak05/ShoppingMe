@@ -1,0 +1,4 @@
+C:\Solutions\POC\WebApp\Contract\bin\Debug\Contract.dll
+C:\Solutions\POC\WebApp\Contract\bin\Debug\Contract.pdb
+C:\Solutions\POC\WebApp\Contract\obj\Debug\Contract.dll
+C:\Solutions\POC\WebApp\Contract\obj\Debug\Contract.pdb

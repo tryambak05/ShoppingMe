@@ -1,0 +1,111 @@
+﻿2018-07-23T23:56:34.0010263+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-07-23T23:56:34.3999716+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-07-23T23:56:34.4050204+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Solutions\POC\ShoppingMe\ShoppingMe.BDD.Tests\bin\Release\ShoppingMe.BDD.Tests.dll
+2018-07-23T23:56:34.4070254+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-07-23T23:56:48.6497189+05:30;Thread#15;Info;Discovering target: Default
+2018-07-23T23:56:48.6527271+05:30;Thread#15;Info;Discovering tests from assembly: C:\Solutions\POC\ShoppingMe\ShoppingMe.BDD.Tests\bin\Release\ShoppingMe.BDD.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: ShoppingMe.BDD.Tests/Default - 
+#1: Default - 
+#2: ShoppingMe.BDD.Tests - 
+#3: Customers - 
+#4: [GET] : api/v1/getcustomerbyid?customerId=1 - TestAssembly:ShoppingMe.BDD.Tests/Feature:Customers/Scenario:%5bGET%5d+%3a+api%2fv1%2fgetcustomerbyid%3fcustomerId%3d1
+#5: [POST] : api/v1/createcustomer - TestAssembly:ShoppingMe.BDD.Tests/Feature:Customers/Scenario:%5bPOST%5d+%3a+api%2fv1%2fcreatecustomer
+#6: [POST] : api/v1/createcustomer : while mobile number as string. It shold be bad request - TestAssembly:ShoppingMe.BDD.Tests/Feature:Customers/Scenario:%5bPOST%5d+%3a+api%2fv1%2fcreatecustomer+%3a+while+mobile+number+as+string.+It+shold+be+bad+request
+#7: [POST] : api/v1/updatecustomer - TestAssembly:ShoppingMe.BDD.Tests/Feature:Customers/Scenario:%5bPOST%5d+%3a+api%2fv1%2fupdatecustomer
+#8: [GET] : api/v1/getcustomerbyemail?email=trupt_jundale@gmail.com - TestAssembly:ShoppingMe.BDD.Tests/Feature:Customers/Scenario:%5bGET%5d+%3a+api%2fv1%2fgetcustomerbyemail%3femail%3dtrupt_jundale%40gmail.com
+#9: [GET]: api/v1/validatecredentialbyemailandpassword?email=tryambak05@gmail.com&password=abc@123 - TestAssembly:ShoppingMe.BDD.Tests/Feature:Customers/Scenario:%5bGET%5d%3a+api%2fv1%2fvalidatecredentialbyemailandpassword%3femail%3dtryambak05%40gmail.com%26password%3dabc%40123
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for ShoppingMe.BDD.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\tligade\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have entered customerId 1
+Thread#0:T:done: CustomersSteps.GivenIHaveEnteredCustomerId(1) (0.0s)
+Thread#0:B:When I request getcustomerbyId endpoint
+Thread#0:T:done: CustomersSteps.WhenIRequestGetcustomerbyIdEndpoint() (5.4s)
+Thread#0:B:Then the result should be customer details on the screen with 200 status code
+Thread#0:T:done: CustomersSteps.ThenTheResultShouldBeCustomerDetailsOnTheScreen(200) (0.4s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 6.3223695 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I have entered customer contract objects
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | Email                  | Password  | Mobile     |
+Thread#0:B:  | Pramod    | Swami    | pramod.swami@gmail.com | Pass$#123 | 9890765456 |
+Thread#0:B:  | Varsha    | Balreddi | varsh.reddi@yahoo.com  | Sm@rt#4   | 9876345654 |
+Thread#0:T:done: CustomersSteps.GivenIHaveEnteredCustomerContractObjects(<table>) (0.1s)
+Thread#0:B:When I request createcustomer endpoint
+Thread#0:T:done: CustomersSteps.WhenIRequestCreatecustomerEndpoint() (0.7s)
+Thread#0:B:Then the result should be true on the screen with 200 status code
+Thread#0:T:done: CustomersSteps.ThenTheResultShouldBeTrueOnTheScreenWithStatusCode(True, 200) (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0.8172105 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I have entered customer contract object
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | Email                  | Password  | Mobile  |
+Thread#0:B:  | Pramod    | Swami    | pramod.swami@gmail.com | Pass$#123 | hfhf133 |
+Thread#0:T:done: CustomersSteps.GivenIHaveEnteredCustomerContractObject(<table>) (0.0s)
+Thread#0:B:When I request createcustomer endpoint
+Thread#0:T:done: CustomersSteps.WhenIRequestCreatecustomerEndpoint() (0.4s)
+Thread#0:B:Then the result should be false on the screen with 400 status code
+Thread#0:T:done: CustomersSteps.ThenTheResultShouldBeTrueOnTheScreenWithStatusCode(False, 400) (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.4401088 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given I have entered customer contract object
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | Email                  | Password  | Mobile     | CustomerId |
+Thread#0:B:  | Sarita    | Swami    | pramod.swami@gmail.com | Pass$#123 | 9890765456 | 34         |
+Thread#0:T:done: CustomersSteps.GivenIHaveEnteredCustomerContractObject(<table>) (0.0s)
+Thread#0:B:When I request updatecustomer endpoint
+Thread#0:T:done: CustomersSteps.WhenIRequestUpdatecustomerEndpoint() (0.4s)
+Thread#0:B:Then the multiple result should be true on the screen with 200 status code
+Thread#0:T:done: CustomersSteps.ThenTheMultipleResultShouldBeTrueOnTheScreenWithStatusCode(True, 200) (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0.3990723 seconds
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:B:Given I have entered email trupt_ju

@@ -1,0 +1,58 @@
+﻿2018-07-21T12:20:10.6416101+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-07-21T12:20:10.7654500+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-07-21T12:20:10.7659218+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Solutions\POC\WebApp\BDDTest\bin\Release\BDDTest.dll
+2018-07-21T12:20:10.7664257+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-07-21T12:20:17.8645422+05:30;VSTestExecutionThread;Info;Discovering target: Default
+2018-07-21T12:20:17.8655443+05:30;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Solutions\POC\WebApp\BDDTest\bin\Release\BDDTest.dll
+2018-07-21T12:20:19.4142441+05:30;VSTestExecutionThread;Info;Log file: file:///C:\Solutions\POC\WebApp\TestResults\BDDTest_Default_2018-07-21T122010.log
+2018-07-21T12:20:19.4142441+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-07-21T12:47:29.0403738+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-07-21T12:47:29.0483944+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-07-21T12:47:29.0483944+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Solutions\POC\WebApp\BDDTest\bin\Release\BDDTest.dll
+2018-07-21T12:47:29.0494065+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-07-21T12:47:42.0540882+05:30;Thread#5;Info;Discovering target: Default
+2018-07-21T12:47:42.0560924+05:30;Thread#5;Info;Discovering tests from assembly: C:\Solutions\POC\WebApp\BDDTest\bin\Release\BDDTest.dll
+Appdomain Disposed
+Test Suite Dump
+#0: BDDTest/Default - 
+#1: Default - 
+#2: BDDTest - 
+#3: Customers - 
+#4: Add two numbers - TestAssembly:BDDTest/Feature:Customers/Scenario:Add+two+numbers
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for BDDTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\tligade\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:done: CustomersSteps.GivenIHaveEnteredIntoTheCalculator(50) (0.0s)
+Thread#0:B:And I have entered 70 into the calculator
+Thread#0:T:done: CustomersSteps.GivenIHaveEnteredIntoTheCalculator(70) (0.0s)
+Thread#0:B:When I press add
+Thread#0:T:done: CustomersSteps.WhenIPressAdd() (0.0s)
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:done: CustomersSteps.ThenTheResultShouldBeOnTheScreen(120) (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0.1293172 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

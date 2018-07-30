@@ -1,0 +1,10 @@
+C:\Solutions\POC\WebApp\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Solutions\POC\WebApp\DataAccess\bin\Debug\DataAccess.dll
+C:\Solutions\POC\WebApp\DataAccess\bin\Debug\DataAccess.pdb
+C:\Solutions\POC\WebApp\DataAccess\bin\Debug\EntityFramework.dll
+C:\Solutions\POC\WebApp\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Solutions\POC\WebApp\DataAccess\bin\Debug\EntityFramework.xml
+C:\Solutions\POC\WebApp\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Solutions\POC\WebApp\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Solutions\POC\WebApp\DataAccess\obj\Debug\DataAccess.dll
+C:\Solutions\POC\WebApp\DataAccess\obj\Debug\DataAccess.pdb

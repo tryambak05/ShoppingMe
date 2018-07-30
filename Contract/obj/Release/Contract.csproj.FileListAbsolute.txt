@@ -1,0 +1,11 @@
+C:\Solutions\POC\WebApp\Contract\bin\Release\Contract.dll
+C:\Solutions\POC\WebApp\Contract\bin\Release\Contract.pdb
+C:\Solutions\POC\WebApp\Contract\obj\Release\Contract.csprojResolveAssemblyReference.cache
+C:\Solutions\POC\WebApp\Contract\obj\Release\Contract.dll
+C:\Solutions\POC\WebApp\Contract\obj\Release\Contract.pdb
+C:\Solutions\POC\ShoppingMe\Contract\bin\Release\Contract.dll
+C:\Solutions\POC\ShoppingMe\Contract\bin\Release\Contract.pdb
+C:\Solutions\POC\ShoppingMe\Contract\obj\Release\Contract.dll
+C:\Solutions\POC\ShoppingMe\Contract\obj\Release\Contract.pdb
+C:\Solutions\POC\ShoppingMe\Contract\obj\Release\Contract.csprojAssemblyReference.cache
+C:\Solutions\POC\ShoppingMe\Contract\obj\Release\Contract.csproj.CoreCompileInputs.cache

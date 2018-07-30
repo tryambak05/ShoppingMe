@@ -1,0 +1,193 @@
+﻿2018-07-22T18:35:43.7283529+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-07-22T18:35:43.8065652+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-07-22T18:35:43.8076041+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Solutions\POC\WebApp\ShoppingMe.BDD.Tests\bin\Release\ShoppingMe.BDD.Tests.dll
+2018-07-22T18:35:43.8085706+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-07-22T18:35:53.8968956+05:30;Thread#16;Info;Discovering target: Default
+2018-07-22T18:35:53.8978653+05:30;Thread#16;Info;Discovering tests from assembly: C:\Solutions\POC\WebApp\ShoppingMe.BDD.Tests\bin\Release\ShoppingMe.BDD.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: ShoppingMe.BDD.Tests/Default - 
+#1: Default - 
+#2: ShoppingMe.BDD.Tests - 
+#3: Customers - 
+#4: [GET] : api/v1/getcustomerbyid?customerId=1 - TestAssembly:ShoppingMe.BDD.Tests/Feature:Customers/Scenario:%5bGET%5d+%3a+api%2fv1%2fgetcustomerbyid%3fcustomerId%3d1
+#5: [POST] : api/v1/createcustomer - TestAssembly:ShoppingMe.BDD.Tests/Feature:Customers/Scenario:%5bPOST%5d+%3a+api%2fv1%2fcreatecustomer
+#6: [POST] : api/v1/createcustomer : while mobile number as string. It shold be bad request - TestAssembly:ShoppingMe.BDD.Tests/Feature:Customers/Scenario:%5bPOST%5d+%3a+api%2fv1%2fcreatecustomer+%3a+while+mobile+number+as+string.+It+shold+be+bad+request
+#7: [POST] : api/v1/updatecustomer - TestAssembly:ShoppingMe.BDD.Tests/Feature:Customers/Scenario:%5bPOST%5d+%3a+api%2fv1%2fupdatecustomer
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for ShoppingMe.BDD.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\tligade\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have entered customerId 1
+Thread#0:T:done: CustomersSteps.GivenIHaveEnteredCustomerId(1) (0.1s)
+Thread#0:B:When I request getcustomerbyId endpoint
+Thread#0:T:done: CustomersSteps.WhenIRequestGetcustomerbyIdEndpoint() (1.8s)
+Thread#0:B:Then the result should be customer details on the screen with 200 status code
+Thread#0:T:done: CustomersSteps.ThenTheResultShouldBeCustomerDetailsOnTheScreen(200) (0.2s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 2.4882651 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I have entered customer contract object
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | Email                  | Password  | Mobile     |
+Thread#0:B:  | Pramod    | Swami    | pramod.swami@gmail.com | Pass$#123 | 9890765456 |
+Thread#0:T:done: CustomersSteps.GivenIHaveEnteredCustomerContractObject(<table>) (0.0s)
+Thread#0:B:When I request createcustomer endpoint
+Thread#0:T:error: An error occurred while updating the entries. See the inner exception for details.
+Thread#0:B:Then the result should be true on the screen with 200 status code
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #5/0 is finished on thread #0 as Failed within 0.2310818 seconds
+Thread#0: Test #5/1 is started on thread #0
+Thread#0:B:Given I have entered customer contract object
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | Email                  | Password  | Mobile     |
+Thread#0:B:  | Pramod    | Swami    | pramod.swami@gmail.com | Pass$#123 | 9890765456 |
+Thread#0:T:done: CustomersSteps.GivenIHaveEnteredCustomerContractObject(<table>) (0.0s)
+Thread#0:B:When I request createcustomer endpoint
+Thread#0:T:error: An error occurred while updating the entries. See the inner exception for details.
+Thread#0:B:Then the result should be true on the screen with 200 status code
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #5/1 is finished on thread #0 as Failed within 0.0080481 seconds
+Thread#0: Test #5/2 is started on thread #0
+Thread#0:B:Given I have entered customer contract object
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | Email                  | Password  | Mobile     |
+Thread#0:B:  | Pramod    | Swami    | pramod.swami@gmail.com | Pass$#123 | 9890765456 |
+Thread#0:T:done: CustomersSteps.GivenIHaveEnteredCustomerContractObject(<table>) (0.0s)
+Thread#0:B:When I request createcustomer endpoint
+Thread#0:T:error: An error occurred while updating the entries. See the inner exception for details.
+Thread#0:B:Then the result should be true on the screen with 200 status code
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/2 is finished on thread #0 as Failed within 0.0065295 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I have entered customer contract object
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | Email                  | Password  | Mobile  |
+Thread#0:B:  | Pramod    | Swami    | pramod.swami@gmail.com | Pass$#123 | hfhf133 |
+Thread#0:T:done: CustomersSteps.GivenIHaveEnteredCustomerContractObject(<table>) (0.0s)
+Thread#0:B:When I request createcustomer endpoint
+Thread#0:T:done: CustomersSteps.WhenIRequestCreatecustomerEndpoint() (0.0s)
+Thread#0:B:Then the result should be false on the screen with 400 status code
+Thread#0:T:done: CustomersSteps.ThenTheResultShouldBeTrueOnTheScreenWithStatusCode(False, 400) (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.0135094 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given I have entered customerId 1
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | Email                  | Password  | Mobile     |
+Thread#0:B:  | Sarita    | Swami    | pramod.swami@gmail.com | Pass$#123 | 9890765456 |
+Thread#0:T:binding error: Parameter count mismatch! The binding method 'ShoppingMe.BDD.Tests:ShoppingMe.BDD.Tests.Features.CustomersSteps.GivenIHaveEnteredCustomerId(Int32)' should have 2 parameters
+Thread#0:B:When I request createcustomer endpoint
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then the result should be true on the screen with 200 status code
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#7:Scheduler: reschedule tests for testitem #7
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #7/0 is finished on thread #0 as Failed within 0.0050132 seconds
+Thread#0: Test #7/1 is started on thread #0
+Thread#0:B:Given I have entered customerId 1
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | Email                  | Password  | Mobile     |
+Thread#0:B:  | Sarita    | Swami    | pramod.swami@gmail.com | Pass$#123 | 9890765456 |
+Thread#0:T:binding error: Parameter count mismatch! The binding method 'ShoppingMe.BDD.Tests:ShoppingMe.BDD.Tests.Features.CustomersSteps.GivenIHaveEnteredCustomerId(Int32)' should have 2 parameters
+Thread#0:B:When I request createcustomer endpoint
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then the result should be true on the screen with 200 status code
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #7/1 is finished on thread #0 as Failed within 0.0050132 seconds
+Thread#0: Test #7/2 is started on thread #0
+Thread#0:B:Given I have entered customerId 1
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | Email                  | Password  | Mobile     |
+Thread#0:B:  | Sarita    | Swami    | pramod.swami@gmail.com | Pass$#123 | 9890765456 |
+Thread#0:T:binding error: Parameter count mismatch! The binding method 'ShoppingMe.BDD.Tests:ShoppingMe.BDD.Tests.Features.CustomersSteps.GivenIHaveEnteredCustomerId(Int32)' should have 2 parameters
+Thread#0:B:When I request createcustomer endpoint
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then the result should be true on the screen with 200 status code
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #7/2 is finished on thread #0 as Failed within 0.0080227 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 4 (test executions: 8)
+Succeeded: 2
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2

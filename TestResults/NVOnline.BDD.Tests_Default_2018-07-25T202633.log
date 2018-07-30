@@ -1,0 +1,48 @@
+﻿2018-07-25T20:26:33.7793176+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-07-25T20:26:33.9368466+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-07-25T20:26:33.9378096+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Solutions\POC\ShoppingMe\NVOnline.BDD.Tests\bin\Release\NVOnline.BDD.Tests.dll
+2018-07-25T20:26:33.9398202+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-07-25T20:26:48.0371473+05:30;Thread#12;Info;Discovering target: Default
+2018-07-25T20:26:48.0391530+05:30;Thread#12;Info;Discovering tests from assembly: C:\Solutions\POC\ShoppingMe\NVOnline.BDD.Tests\bin\Release\NVOnline.BDD.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: NVOnline.BDD.Tests/Default - 
+#1: Default - 
+#2: NVOnline.BDD.Tests - 
+#3: SignIn - 
+#6: [GET]: api/signin Invalid, nraisoni@nvidia.com - TestAssembly:NVOnline.BDD.Tests/Feature:SignIn/Scenario:%5bGET%5d%3a+api%2fsignin+Invalid%2c+nraisoni%40nvidia.com
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for NVOnline.BDD.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\tligade\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have entered credentails nraisoni@nvidia.com, Puja@1234h and SDK Manager
+Thread#0:T:done: SignInSteps.GivenIHaveEnteredCredentailsUsernamePasswordAndAppId("nraisoni@nvidia.com", "Puja@1234h", "SDK Manager") (30.3s)
+Thread#0:B:When I request signin endpoint
+Thread#0:T:done: SignInSteps.WhenIRequestSigninEndpoint() (4.5s)
+Thread#0:B:Then the result should be Unauthorized with 401 status code
+Thread#0:T:done: SignInSteps.ThenTheResultShouldBeUnauthorizedWithStatusCode(401) (21.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 62.4890307 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

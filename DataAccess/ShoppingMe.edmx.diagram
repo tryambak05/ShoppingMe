@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE)  -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="10e07cfb22bc40e8a95716e578c78346" Name="Diagram1">
+        <EntityTypeShape EntityType="ShoppingMeModel.Address" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingMeModel.Basket" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingMeModel.Category" Width="1.5" PointX="1.5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingMeModel.Customer" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingMeModel.Order" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingMeModel.OrderDetail" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingMeModel.OrderStatu" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingMeModel.Payment" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingMeModel.Product" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingMeModel.SKU" Width="1.5" PointX="3" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingMeModel.Supplier" Width="1.5" PointX="0.75" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingMeModel.Tax" Width="1.5" PointX="0.75" PointY="22.625" IsExpanded="true" />
+        <AssociationConnector Association="ShoppingMeModel.FK_Address_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingMeModel.FK_OrderDetails_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingMeModel.FK_Basket_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingMeModel.FK_Basket_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingMeModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingMeModel.FK_Order_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingMeModel.FK_Order_OrderStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingMeModel.FK_Order_Payment1" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingMeModel.FK_Order_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingMeModel.FK_Order_Tax" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingMeModel.FK_OrderDetails_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingMeModel.FK_OrderDetails_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingMeModel.FK_SKU_Product" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
